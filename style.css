@@ -1,0 +1,33 @@
+.container {
+    width: 800px; /* Largura fixa em pixels */
+    margin: 0 auto; /* Centraliza horizontalmente o contêiner */
+    background-color: lightgrey;
+    padding: 20px;
+}
+
+.container2 {
+    width: 80%; /* Largura em porcentagem para ser líquida */
+    margin: 0 auto; /* Centraliza horizontalmente o contêiner */
+    background-color: lightblue;
+    padding: 20px;
+}
+
+.container3 {
+    width: 50em; /* Largura elástica baseada no tamanho da fonte */
+    margin: 0 auto; /* Centraliza horizontalmente o contêiner */
+    background-color: lightgreen;
+    padding: 2em;
+}
+
+#fonte{
+    font-size: 80px;
+}
+
+.container4 {
+    width: 70%; /* Largura líquida para telas maiores */
+    max-width: 1000px; /* Largura máxima fixa */
+    min-width: 300px; /* Largura mínima fixa */
+    margin: 0 auto; /* Centraliza horizontalmente o contêiner */
+    background-color: lightcoral;
+    padding: 20px;
+}
